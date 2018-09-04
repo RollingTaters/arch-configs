@@ -1,0 +1,4 @@
+#!/bin/bash
+out="$(ls -l $HOME/scripts/.appscript | awk '{print $9}')"
+srt="$(printf "${out}" | /home/jacob/scripts/rofi-dmenu "/>")"
+exec /home/jacob/scripts/.appscript/$srt

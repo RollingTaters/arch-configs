@@ -1,0 +1,3 @@
+#!/bin/bash
+
+prompt "Would you like to shutdown" shutdown -P now

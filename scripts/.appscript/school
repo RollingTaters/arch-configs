@@ -1,0 +1,6 @@
+#!/bin/bash
+LOC=/home/jacob/scripts
+PID=$(xdotool search --class "termite")
+firefox https://mymasonportal.gmu.edu &
+
+termite -d ~/Desktop/NOTES/ 

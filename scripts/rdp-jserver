@@ -1,0 +1,2 @@
+#!/bin/bash
+xfreerdp /u:Administrator /p:1997Jbs2015! /w:1920 /h:1024 /v:192.168.1.61 

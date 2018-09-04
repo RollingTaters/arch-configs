@@ -1,0 +1,6 @@
+#!/bin/bash
+LOC=./$1
+
+touch $LOC
+chmod 755 $LOC
+nvim $LOC

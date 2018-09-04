@@ -1,0 +1,3 @@
+#!/bin/bash
+
+prompt "Would you like to reboot?" /sbin/reboot

@@ -1,0 +1,7 @@
+#!/bin/bash
+out=$(printf "Yes\nNo" | /home/jacob/scripts/rofi-dmenu "$1")
+#out=$(printf "Yes\nNo" | dmenu -w 1700 -p "$1")
+if [ "$out" == "Yes" ]
+then
+  $2
+fi

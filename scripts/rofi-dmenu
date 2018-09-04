@@ -1,0 +1,12 @@
+#!/bin/bash
+rofi -dmenu -i -p "$1" -location 1 -width 80 \
+		 -lines 0 -line-margin 0 -line-padding 1 -async-pre-read 0\
+     -theme dmenu-redux\
+		 # -separator-style none -font "DejaVu 10" -columns 20 -bw 0 \
+		 # -disable-history \
+		 # -hide-scrollbar \
+		 # -color-window "#2E323E, #2E323E, #D3DAE3" \
+		 # -color-normal "#2E323E, #D3DAE3, #2E323E, #005577, #D3DAE3" \
+		 # -color-active "#2E323E, #D3DAE3, #2E323E, #007763, #D3DAE3" \
+		 # -color-urgent "#2E323E, #D3DAE3, #2E323E, #77003d, #D3DAE3" \
+		 # -kb-row-select "Tab" -kb-row-tab ""

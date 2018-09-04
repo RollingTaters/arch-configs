@@ -1,0 +1,7 @@
+#!/bin/bash
+var="$(lsblk -r | awk '/part/' | awk 'NF <= 6 {print}' | awk '{print "/dev/"$1 " (" $4 ")"}')"
+srt="$(printf "${var}" | /home/jacob/scripts/rofi-dmenu "Mount?")"
+out="$(printf "${srt}" | awk '{print $1}')"
+
+loc="$(cat ~/scripts/helper/mntloc | /home/jacob/scripts/rofi-dmenu "Where?")"
+/home/jacob/scripts/prompt "Mount $out to $loc ?" "gksudo /sbin/mount $out $loc"

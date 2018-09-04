@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo autoscript
+
+SCRIPT_FOLDER="$HOME/scripts"
+SCRIPT_FILE="$SCRIPT_FOLDER/$1"
+
+if [[ -f $SCRIPT_FILE ]]; then
+	echo FILE EXISTS
+else
+	echo '#!/bin/bash' > $SCRIPT_FILE
+	chmod +x $SCRIPT_FILE
+	nvim $SCRIPT_FILE
+fi
+echo $SCRIPT_FILE

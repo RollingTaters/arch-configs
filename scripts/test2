@@ -1,0 +1,4 @@
+#!/bin/bash
+
+read foo;
+echo "$foo" | awk '{print $1}'| rofi-dmenu

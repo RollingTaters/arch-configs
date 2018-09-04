@@ -1,0 +1,3 @@
+#!/bin/bash
+
+printf "Yes\nNo" | dmenu -w 1700

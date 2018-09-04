@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /home/jacob/.wine-envs/mtgo/drive_c/users/jacob
+WINEPREFIX=/home/jacob/.wine-envs/mtgo wine start Magic\ The\ Gathering\ Online\ .appref-ms 
