@@ -1,0 +1,15 @@
+#!/bin/bash
+
+pacstrap /mnt base base-devel xorg xorg-xinit vim networkmanager openbox tint2 termite nvim lightdm-gtk-greeter light-locker
+genfstab -U /mnt >> /mnt/etc/fstab
+arch-chroot /mnt
+ln -sf /usr/share/zoneinfo/America/New_York /etc/localtime
+hwclock --systohc
+vim /etc/locale.gen
+locale-gen
+echo "LANG=en_US.UTF-8" >> /etc/locale.conf
+echo "arch-vm" >> /etc/hostname
+cp ./hosts /etc/hosts
+passwd
+echo "Get That Bootloader And Reboot"
+
