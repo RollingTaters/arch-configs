@@ -3,7 +3,7 @@ allow_bold = true
 #audible_bell = false
 clickable_url = true
 dynamic_title = true
-font = Mononoki 12
+font = mononoki 12
 #fullscreen = true
 #geometry = 640x480
 icon_name = terminal
@@ -18,7 +18,7 @@ scrollback_lines = 10000
 #hyperlinks = false
 
 # $BROWSER is used by default if set, with xdg-open as a fallback
-#browser = xdg-open
+browser = xdg-open
 
 # "system", "on" or "off"
 #cursor_blink = system
