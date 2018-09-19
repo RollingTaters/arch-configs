@@ -1,7 +1,7 @@
 #!/bin/bash
 rofi -show drun -modi drun -location 1 -width 80 \
 		 -lines 0 -line-margin 0 -line-padding 1 \
-		 -theme dmenu-redux\
+		 -theme $HOME/.config/rofi/themes/dmenu-redux\
 		 -display-drun ">>"\
 		 # -separator-style none -font "DejaVu 10" -columns 20 -bw 0 \
 		 # -disable-history \
