@@ -2,4 +2,4 @@
 
 loc=$(pwd)
 echo $loc
-termite -d $loc &
+termite -d $loc & disown
