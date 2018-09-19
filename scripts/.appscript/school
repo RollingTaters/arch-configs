@@ -1,6 +1,7 @@
 #!/bin/bash
 LOC=/home/jacob/scripts
 PID=$(xdotool search --class "termite")
+xdotool key super+2
 firefox https://mymasonportal.gmu.edu &
 
 termite -d ~/Desktop/NOTES/ 

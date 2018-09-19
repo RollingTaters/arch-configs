@@ -1,6 +1,4 @@
 #!/bin/bash
 LOC=/home/jacob/scripts
 firefox https://mymasonportal.gmu.edu &
-termite -d ~/Desktop/NOTES/ &
-$LOC/prompt "Need Vivado?" "$LOC/vivadostart" 
-$LOC/prompt "Need MARS?" "mars-mips"
+termite -d ~/Desktop/NOTES/ 

@@ -23,5 +23,5 @@ libinput-gestures &
 xfce4-power-manager &
 light-locker &
 /home/jacob/.fehbg &
-xcompmgr &
+compton -b &
 alias vim=nvim

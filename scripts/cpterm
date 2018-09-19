@@ -1,0 +1,5 @@
+#!/bin/bash
+
+loc=$(pwd)
+echo $loc
+termite -d $loc &
