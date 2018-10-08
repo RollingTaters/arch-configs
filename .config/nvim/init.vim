@@ -11,15 +11,26 @@ Plug 'joshdick/onedark.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'suoto/vim-hdl'
 Plug 'vim-latex/vim-latex'
+Plug 'dylanaraps/wal'
+Plug 'godlygeek/tabular'
 call plug#end()
 
-colorscheme onedark
-set background=dark
-set tgc
+colorscheme wal
 
 let g:lightline = { 
-	\ 'colorscheme': 'one',
+	\ 'colorscheme': 'wombat',
 	\ }
 
 set number
-set tabstop=2
+set relativenumber
+set cursorline
+set showmatch
+set hlsearch
+set shortmess+=c
+set mouse=a
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set completeopt+=menuone
+set nohlsearch
+set magic

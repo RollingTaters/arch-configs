@@ -1,0 +1,18 @@
+[colors]
+charging=#0000ff
+charged=#00ff00
+draining=#ff0000
+background=#ffffff
+border=#000000
+text=#000000
+
+[mode]
+text=false
+
+[percents]
+warning=15
+critical=5
+
+[commands]
+warning=xmessage battery is very low
+critical=xmessage battery is critically low

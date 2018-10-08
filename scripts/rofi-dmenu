@@ -1,7 +1,7 @@
 #!/bin/bash
 rofi -dmenu -i -p "$1" -location 1 -width 80 \
 		 -lines 0 -line-margin 0 -line-padding 1 -async-pre-read 0\
-     -theme $HOME/.config/rofi/themes/dmenu-redux\
+     -theme $HOME/.cache/wal/colors-rofi-dark.rasi\
 		 # -separator-style none -font "DejaVu 10" -columns 20 -bw 0 \
 		 # -disable-history \
 		 # -hide-scrollbar \

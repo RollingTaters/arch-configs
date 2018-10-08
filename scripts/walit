@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo cp -f $1 /usr/share/wallpaper/wall.png
+sudo cp -f -r $HOME/.themes/wal /usr/share/themes
+openbox --reconfigure

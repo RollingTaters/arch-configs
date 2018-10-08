@@ -4,10 +4,11 @@
  * Copyright: Dave Davenport
  */
 * {
-    background-color:      #2E323E;
-    border-color:          White;
-    text-color:           #D3DAE3;
-    font:            "DejaVu 12";
+    $color
+    background-color:      @background;
+    border-color:          @background;
+    text-color:           @foreground;
+    font:            "mononoki 12";
 }
 
 configuration {
@@ -41,5 +42,5 @@ configuration {
     padding: 0px 5px;
 }
 #element selected {
-    background-color: #007763;
+    background-color: #000000;
 }

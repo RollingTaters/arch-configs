@@ -16,12 +16,12 @@
 #
 #xfce-mcs-manager &
 
-tint2 &
-nm-applet &
-pa-applet &
+wal -R
+polybar juser &
 libinput-gestures &
 xfce4-power-manager &
 light-locker &
-/home/jacob/.fehbg &
+#/home/jacob/.fehbg &
 compton -b &
+rm -rf /tmp/* /tmp/.* &>/dev/null &
 alias vim=nvim

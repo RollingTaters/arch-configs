@@ -1,0 +1,36 @@
+[Added Associations]
+text/plain=leafpad.desktop;nvim.desktop;atom.desktop;vim.desktop;
+application/x-shellscript=leafpad.desktop;atom.desktop;vim.desktop;
+application/zip=org.gnome.FileRoller.desktop;
+application/x-wine-extension-appref-ms=wine-extension-appref-ms.desktop;
+application/x-wine-extension-ini=wine-extension-ini.desktop;
+application/vnd.rar=org.gnome.FileRoller.desktop;
+application/x-7z-compressed=org.gnome.FileRoller.desktop;
+image/png=gimp.desktop;
+application/x-yaml=atom.desktop;
+application/x-ruby=atom.desktop;
+text/x-makefile=atom.desktop;vim.desktop;
+text/x-csrc=atom.desktop;
+application/x-desktop=leafpad.desktop;
+application/octet-stream=leafpad.desktop;
+application/x-xz-compressed-tar=org.gnome.FileRoller.desktop;
+text/markdown=leafpad.desktop;
+text/x-chdr=atom.desktop;
+image/x-xwindowdump=gimp.desktop;
+audio/x-wav=audacity.desktop;
+video/x-matroska=vlc.desktop;
+video/x-msvideo=vlc.desktop;
+video/mp4=vlc.desktop;
+application/pdf=libreoffice-draw.desktop;xpdf.desktop;
+application/x-compressed-tar=org.gnome.FileRoller.desktop;
+text/x-vhdl=leafpad.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-V21KOZ.desktop;
+message/rfc822=userapp-Thunderbird-V21KOZ.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
+text/x-install=leafpad.desktop;
+text/html=wine-extension-htm.desktop;
+application/x-ms-dos-executable=org.gnome.FileRoller.desktop;
+
+[Default Applications]
+x-scheme-handler/mailto=userapp-Thunderbird-V21KOZ.desktop
+message/rfc822=userapp-Thunderbird-V21KOZ.desktop

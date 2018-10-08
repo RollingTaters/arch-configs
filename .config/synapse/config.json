@@ -1,0 +1,15 @@
+{
+  "ui" : {
+    "global" : {
+      "ui-type" : "virgilio"
+    }
+  },
+  "data-sink" : {
+    "global" : {
+      "disabled-plugins" : [
+        "SynapseOpenSearchPlugin",
+        "SynapseGnomeBookmarksPlugin"
+      ]
+    }
+  }
+}

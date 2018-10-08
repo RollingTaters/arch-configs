@@ -1,0 +1,22 @@
+[INF][09/09/2018 00:11:33] Checking data/cache
+[INF][09/09/2018 00:11:33] Using repository: rauenzi and branch: master
+[INF][09/09/2018 00:11:33] Getting latest hash
+[INF][09/09/2018 00:11:33] Downloading Resource: api.github.com/repos/rauenzi/BetterDiscordApp/commits/master
+[INF][09/09/2018 00:11:33] Hooking dom-ready
+[INF][09/09/2018 00:11:33] Hash: d22860e7c8c372205c0d209b467e0a2a351ccb5b
+[INF][09/09/2018 00:11:33] Getting updater
+[INF][09/09/2018 00:11:33] Downloading Resource: raw.githubusercontent.com/rauenzi/BetterDiscordApp/d22860e7c8c372205c0d209b467e0a2a351ccb5b/data/updater.json
+[INF][09/09/2018 00:11:33] Latest Version: 0.2.83
+[INF][09/09/2018 00:11:33] Using CDN: cdn.rawgit.com
+[INF][09/09/2018 00:11:33] Updating ext data
+[INF][09/09/2018 00:11:36] Hooked dom-ready
+[INF][09/09/2018 00:11:36] Loading
+[INF][09/09/2018 00:11:36] Hooking ipc async
+[INF][09/09/2018 00:11:36] Hooked ipc async
+[INF][09/09/2018 00:11:38] Loading Resource (jQuery)
+[INF][09/09/2018 00:11:38] Loading plugin: discordExperiments
+[INF][09/09/2018 00:11:38] Loading theme: wal-discord
+[INF][09/09/2018 00:11:39] Loading Resource (jQueryCookie)
+[INF][09/09/2018 00:11:40] Loading Resource (Main CSS)
+[INF][09/09/2018 00:11:40] Loading Resource (Main JS)
+[INF][09/09/2018 00:11:41] Starting Up

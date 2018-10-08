@@ -1,0 +1,2 @@
+#!/bin/bash
+WINEPREFIX=~/.wine-envs/mtga wine ~/.wine-envs/mtga/drive_c/Program\ Files\ \(x86\)/Wizards\ of\ the\ Coast/MTGA/MTGA.exe
